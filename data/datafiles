@@ -1,1 +1,31 @@
-Data'Files
+Dataset Download (Simple way)
+For Bitcoin (Elliptic)
+
+Open Kaggle in browser
+
+Search: Elliptic Data Set
+
+Click Download ZIP
+
+Extract ZIP → you’ll see files:
+
+elliptic_txs_features.csv
+
+elliptic_txs_classes.csv
+
+elliptic_txs_edgelist.csv (not needed for transformer training)
+
+For Ethereum Fraud
+
+Search on Kaggle: Ethereum Fraud Detection
+
+Download ZIP
+
+Extract ZIP → you may see a file like:
+
+transaction_dataset.csv or ethereum_fraud.csv or Ethereum_Fraud_Detection.csv
+(Use the one that contains a fraud label column like FLAG or isFraud)
+
+2️⃣ Add Conversion Script (convert_data.py)
+
+Place it in your project root folder.
